@@ -1,2 +1,5 @@
-# webdesign
-Exercicies for webdesign class
+# web design
+Exercicies for webdesign class.
+
+
+
