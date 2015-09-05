@@ -1,0 +1,67 @@
+header{
+    background-image:url(../img/top.jpg);
+    background-repeat:none;
+    background-attachment:scroll;
+    background-position:center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    -o-background-size:cover;
+    text-align:right;
+    color:#000;
+    -webkit-text-stroke: 0.5px #FDCF84;
+    
+}
+header .intro-text{
+    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style:italic;
+    font-size:22px;
+    line-height:22px;
+    margin-bottom:25px
+}
+header .intro-text{
+    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:50px;
+    line-height:50px;
+    -bottom:25px
+    
+}
+.intro-text{
+    padding-top:100px;
+    padding-bottom:50px
+    
+}
+/*Change the intro-text if the document is smaller than 768 pixels wide*/
+@media (min-width:768px){
+    header .intro-text{
+        padding-top:300px;
+        padding-bottom:200px
+        
+    }
+    header .intro-text{
+        font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style:italic;
+        font-size:40px;
+        line-height:40px;
+        margin-bottom:25px
+        
+    }
+    header .intro-text{
+            font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            text-transform:uppercase;
+            font-weight:700;
+            font-size:75px;
+            line-height:75px;
+            margin-bottom:50px
+        
+    }
+    
+}
+
+
+.text-icon{
+    max-width:90px;
+    margin:auto;
+}
