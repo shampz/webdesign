@@ -1,26 +1,4 @@
-.navbar{
-    border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-    
-}
-.navbar-inverse .navbar-nav > li > a {
-    color:#bab410;
-    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    text-transform:uppercase;
-    font-weight:700;
-    font-size:30px;
-    line-height:50px;
-}
-.btn-saibamais {
-  color: #fff;
-  background-color: #bab410;
-  border-color: #a29d0a;
-}
-.btn-saibamais:hover {
-  color: #fff;
-  background-color: #dbd525;
-  border-color: #bcb610;
-}
+/*Banner com titulo e imagem*/
 header{
     background-image:url(../img/top.jpg);
     background-repeat:none;
@@ -36,53 +14,50 @@ header{
     
 }
 header .intro-text{
-    font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:'Archivo Black', sans-serif;
     font-style:italic;
-    font-size:22px;
-    line-height:22px;
-    margin-bottom:25px
-}
-header .intro-text{
-    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
-    font-weight:700;
     font-size:50px;
     line-height:50px;
-    -bottom:25px
-    
-}
-.intro-text{
+    -bottom:25px;
     padding-top:100px;
     padding-bottom:50px
-    
-}
-/*Change the intro-text if the document is smaller than 768 pixels wide*/
-@media (min-width:768px){
-    header .intro-text{
-        padding-top:300px;
-        padding-bottom:200px
-        
-    }
-    header .intro-text{
-        font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-style:italic;
-        font-size:40px;
-        line-height:40px;
-        margin-bottom:25px
-        
-    }
-    header .intro-text{
-            font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-            text-transform:uppercase;
-            font-weight:700;
-            font-size:75px;
-            line-height:75px;
-            margin-bottom:50px
-        
-    }
+   
     
 }
 
+/*Muda o intro-text se o documento form menor que 768 pixels wide*/
+@media (min-width:768px){
+
+    header .intro-text{
+        padding-top:300px;
+        padding-bottom:200px;
+        font-family:'Archivo Black', sans-serif;
+        font-size:75px;
+        line-height:75px;
+        margin-bottom:50px;
+        font-style:italic;
+   }
+    
+}
+/*Menu principal abaixo do banner*/
+.navbar{
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#bab410;
+    font-family:Anton,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+    font-weight:500;
+    font-size:30px;
+    line-height:50px;
+}
+/*parágrafos com o conteúdo da página*/
+.paragrafo{
+    margin-top:30px;
+}
 
 .text-icon{
     max-width:90px;
@@ -91,10 +66,21 @@ header .intro-text{
 
 .sub-titulo{
     color:#bab410;
-    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:Anton,Helvetica,Arial,sans-serif;
     text-transform:uppercase;
-    font-weight:700;
+    font-weight:100;
     font-size:30px;
     line-height:50px;
     text-decoration: underline;
+}
+/*botão saiba mais*/
+.btn-saibamais {
+  color: #fff;
+  background-color: #bab410;
+  border-color: #a29d0a;
+}
+.btn-saibamais:hover {
+  color: #fff;
+  background-color: #dbd525;
+  border-color: #bcb610;
 }
