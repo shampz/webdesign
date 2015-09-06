@@ -1,3 +1,26 @@
+.navbar{
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    
+}
+.navbar-inverse .navbar-nav > li > a {
+    color:#bab410;
+    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:30px;
+    line-height:50px;
+}
+.btn-saibamais {
+  color: #fff;
+  background-color: #bab410;
+  border-color: #a29d0a;
+}
+.btn-saibamais:hover {
+  color: #fff;
+  background-color: #dbd525;
+  border-color: #bcb610;
+}
 header{
     background-image:url(../img/top.jpg);
     background-repeat:none;
@@ -64,4 +87,14 @@ header .intro-text{
 .text-icon{
     max-width:90px;
     margin:auto;
+}
+
+.sub-titulo{
+    color:#bab410;
+    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:30px;
+    line-height:50px;
+    text-decoration: underline;
 }
